@@ -1,0 +1,93 @@
+# ================================
+# PORTFOLIO - GITHUB PAGES CONFIG
+# Jekyll Configuration
+# ================================
+
+# Site settings
+title: "Davi Gabriel Gonçalves - Business Intelligence & Python Developer"
+description: "Portfólio profissional especializado em Business Intelligence, Power BI, Python e automação de processos corporativos."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://davigabriel.github.io" # the base hostname & protocol for your site
+
+# Author information
+author:
+  name: "Davi Gabriel Gonçalves"
+  email: "davi98643@gmail.com"
+  linkedin: "https://www.linkedin.com/in/davi-gabriel-goncalves"
+  github: "https://github.com/davigabriel"
+
+# SEO settings
+lang: pt-BR
+locale: pt_BR
+
+# Social media
+social:
+  name: Davi Gabriel Gonçalves
+  links:
+    - https://www.linkedin.com/in/davi-gabriel-goncalves
+    - https://github.com/davigabriel
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - README.md
+  - COMO_ADICIONAR_PROJETOS.md
+  - deploy.bat
+  - node_modules/
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - .vs/
+
+# Include files
+include:
+  - _pages
+  - projetos-bi/
+  - projetos-python/
+
+# Collections (if needed for future blog posts or projects)
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# GitHub Pages specific settings
+github:
+  repository_url: "https://github.com/davigabriel/portfolio"
+
+# Analytics (adicione seu ID do Google Analytics se tiver)
+# google_analytics: UA-XXXXXXXX-X
+
+# Performance settings
+sass:
+  style: compressed
+
+# Security
+safe: true
+incremental: false

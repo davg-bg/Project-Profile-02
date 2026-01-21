@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Davi  Gonçalves - Analista de Negócios, Business Intelligence, Power BI e Python. Analista de Dados e Desenvolvedor com experiência em automação e dashboards estratégicos.">
+    <meta name="keywords" content="Davi Gonçalves, Power BI, Python, Business Intelligence, Dashboard, Automação, Data Analysis, Developer">
+    <meta name="author" content="Davi Gonçalves">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Davi Gonçalves - Business Intelligence & Python Developer">
+    <meta property="og:description" content="Analista em Business Intelligence, Power BI e automação com Python. Transformando dados em insights estratégicos.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://davigabriel.dev">
+    <meta property="og:image" content="https://davigabriel.dev/preview-image.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Davi Gonçalves - Business Intelligence, Workflow & Python">
+    <meta name="twitter:description" content="Transformando dados em insights estratégicos com Power BI e Python.">
+
+    <title>Davi Gonçalves - Business Intelligence & Python Developer</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Meta tags adicionais -->
+    <meta name="theme-color" content="#FFD700">
+    <meta name="msapplication-TileColor" content="#FFD700">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Davi Gonçalves">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/index.min.js"></script>
+</head>
+<body>
+    <!-- Skip Navigation -->
+    <a href="#main-content" class="skip-link">Pular para conteúdo principal</a>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#inicio">Davi Gonçalves</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio" class="nav-link">INÍCIO</a></li>
+                <li><a href="#sobre" class="nav-link">SOBRE</a></li>
+                <li><a href="#projetos" class="nav-link">PROJETOS</a></li>
+                <li><a href="#habilidades" class="nav-link">HABILIDADES</a></li>
+                <li><a href="#contato" class="nav-link">CONTATO</a></li>
+            </ul>
+            <div class="nav-social">
+                <a href="https://linkedin.com/in/davi-gabriel-goncalves" target="_blank" aria-label="LinkedIn">in</a>
+                <a href="https://github.com/davg-bg/" target="_blank" aria-label="GitHub">gh</a>
+                <a href="mailto:davi98643@gmail.com" aria-label="Email">@</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="hero-bg">
+                <div class="hero-pattern"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <p class="hero-greeting">SEJAM BEM-VINDOS AO MEU PORTFÓLIO!</p>
+                        <h1 class="hero-title">Davi<br><span class="hero-highlight">Gonçalves</span></h1>
+                        <p class="hero-subtitle">Analista em Business Intelligence | Analista de Dados | Desenvolvedor Python</p>
+                        <p class="hero-location">📍 São Paulo, Brasil</p>
+                        <div class="hero-buttons">
+                            <a href="#projetos" class="btn btn-primary">
+                                <span>VER PROJETOS</span>
+                                <i class="btn-icon">→</i>
+                            </a>
+                            <a href="#contato" class="btn btn-secondary">
+                                <span>CONTATO</span>
+                                <i class="btn-icon">✉</i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="hero-card floating">
+                            <div class="card-icon">📊</div>
+                            <h3>Business Intelligence</h3>
+                            <p>Dashboards estratégicos</p>
+                        </div>
+                        <div class="hero-card floating" style="animation-delay: 0.5s">
+                            <div class="card-icon">🐍</div>
+                            <h3>Python</h3>
+                            <p>Automação & Análise</p>
+                        </div>
+                        <div class="hero-card floating" style="animation-delay: 1s">
+                            <div class="card-icon">⚡</div>
+                            <h3>Integração</h3>
+                            <p>Sistemas & APIs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-scroll">
+                    <span>ROLAR PARA BAIXO</span>
+                    <div class="scroll-indicator">
+                        <div class="scroll-arrow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="sobre" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">SOBRE MIM</span>
+                    <h2 class="section-title">Transformando dados em<br><span class="text-gradient">insights estratégicos</span></h2>
+                    <p class="section-subtitle">Analista em Business Intelligence com foco em Power BI, Python e automação de processos.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-content">
+                        <div class="about-text">
+                            <h3>Minha Jornada</h3>
+                            <p>Sou Analista de Suporte da <strong>Penske Logistics</strong>, onde desenvolvimento dashboards estratégicos e automações que impactam diretamente nos resultados da empresa.</p>
+
+                            <p>Com mais de <strong>3 anos de experiência</strong>, me especializo em transformar dados complexos em visualizações claras e acionáveis, sempre buscando otimizar processos e gerar valor para o negócio.</p>
+
+                            <div class="expertise-list">
+                                <div class="expertise-item">
+                                    <span class="expertise-icon">🎯</span>
+                                    <span>Análise de Dados Estratégicos</span>
+                                </div>
+                                <div class="expertise-item">
+                                    <span class="expertise-icon">📊</span>
+                                    <span>Dashboards Interativos</span>
+                                </div>
+                                <div class="expertise-item">
+                                    <span class="expertise-icon">🤖</span>
+                                    <span>Automação de Processos</span>
+                                </div>
+                                <div class="expertise-item">
+                                    <span class="expertise-icon">🔗</span>
+                                    <span>Integração de Sistemas</span>
+                                </div>
+                            </div>
+
+                            <a href="#contato" class="btn btn-outline">VAMOS TRABALHAR JUNTOS</a>
+                        </div>
+                    </div>
+
+                    <div class="about-stats">
+                        <div class="stat-card highlight">
+                            <div class="stat-number" data-target="25">0</div>
+                            <div class="stat-label">Dashboards<br>Criados</div>
+                            <div class="stat-icon">📊</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="15">0</div>
+                            <div class="stat-label">Automações<br>Implementadas</div>
+                            <div class="stat-icon">⚡</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="8">0</div>
+                            <div class="stat-label">Sistemas<br>Integrados</div>
+                            <div class="stat-icon">🔗</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="2000">0</div>
+                            <div class="stat-label">Horas de<br>Desenvolvimento</div>
+                            <div class="stat-icon">⏱️</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projetos" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">PORTFÓLIO</span>
+                    <h2 class="section-title">Meus <span class="text-gradient">Projetos</span></h2>
+                    <p class="section-subtitle">Soluções que desenvolvi para transformar dados em valor para o negócio.</p>
+                </div>
+
+                <div class="projects-showcase">
+                    <!-- Featured Project -->
+                    <div class="featured-project">
+                        <div class="project-visual">
+                            <div class="project-mockup">
+                                <div class="mockup-screen">
+                                    <div class="chart-bars">
+                                        <div class="bar" style="height: 60%"></div>
+                                        <div class="bar" style="height: 80%"></div>
+                                        <div class="bar" style="height: 45%"></div>
+                                        <div class="bar" style="height: 90%"></div>
+                                        <div class="bar" style="height: 70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category">DESTAQUE</div>
+                            <h3>Dashboard Executivo - Penske</h3>
+                            <p>Dashboard completo para análise de performance operacional com KPIs estratégicos, métricas de produtividade e insights em tempo real para tomada de decisão executiva.</p>
+
+                            <div class="project-features">
+                                <div class="feature">
+                                    <span class="feature-icon">📈</span>
+                                    <span>KPIs em Tempo Real</span>
+                                </div>
+                                <div class="feature">
+                                    <span class="feature-icon">🔄</span>
+                                    <span>Automação ETL</span>
+                                </div>
+                                <div class="feature">
+                                    <span class="feature-icon">📱</span>
+                                    <span>Responsivo</span>
+                                </div>
+                            </div>
+
+                            <div class="project-tech">
+                                <span class="tech-tag primary">Power BI</span>
+                                <span class="tech-tag">DAX</span>
+                                <span class="tech-tag">SQL Server</span>
+                                <span class="tech-tag">Python</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="projetos-bi/index.html" class="btn btn-primary btn-sm">
+                                    <span>VER PROJETO</span>
+                                    <i class="btn-icon">→</i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Categories -->
+                    <div class="project-categories">
+                        <div class="category-card">
+                            <div class="category-icon">📊</div>
+                            <h4>Business Intelligence</h4>
+                            <p>Dashboards interativos e análises estratégicas desenvolvidas em Power BI.</p>
+                            <div class="category-stats">
+                                <span class="stat">15+ Dashboards</span>
+                                <span class="stat">25+ Relatórios</span>
+                            </div>
+                            <a href="projetos-bi/index.html" class="category-link">
+                                <span>Explorar Projetos BI</span>
+                                <i class="link-icon">→</i>
+                            </a>
+                        </div>
+
+                        <div class="category-card">
+                            <div class="category-icon">🐍</div>
+                            <h4>Python & Automação</h4>
+                            <p>Scripts de automação, integração de APIs e soluções para otimização de processos.</p>
+                            <div class="category-stats">
+                                <span class="stat">12+ Automações</span>
+                                <span class="stat">8+ Integrações</span>
+                            </div>
+                            <a href="projetos-python/index.html" class="category-link">
+                                <span>Explorar Projetos Python</span>
+                                <i class="link-icon">→</i>
+                            </a>
+                        </div>
+
+                        <div class="category-card">
+                            <div class="category-icon">🔗</div>
+                            <h4>Integração de Dados</h4>
+                            <p>Soluções de ETL, APIs e conectores para centralização e organização de dados.</p>
+                            <div class="category-stats">
+                                <span class="stat">6+ ETLs</span>
+                                <span class="stat">10+ APIs</span>
+                            </div>
+                            <a href="#contato" class="category-link">
+                                <span>Solicitar Orçamento</span>
+                                <i class="link-icon">→</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="habilidades" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">HABILIDADES</span>
+                    <h2 class="section-title">Tecnologias & <span class="text-gradient">Ferramentas</span></h2>
+                    <p class="section-subtitle">Stack completo para desenvolvimento de soluções de Business Intelligence e automação.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">📊</div>
+                            <h3>Business Intelligence</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Power BI</span>
+                                    <span class="skill-level">Avançado</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">DAX</span>
+                                    <span class="skill-level">Avançado</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Power Query</span>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="98%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">🐍</div>
+                            <h3>Desenvolvimento</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-level">Avançado</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">SQL</span>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="92%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-level">Intermediário</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">🛠️</div>
+                            <h3>Ferramentas</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Excel Avançado</span>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="96%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Azure</span>
+                                    <span class="skill-level">Intermediário</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Git/GitHub</span>
+                                    <span class="skill-level">Avançado</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">📈</div>
+                            <h3>Análise de Dados</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Pandas</span>
+                                    <span class="skill-level">Avançado</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="87%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Matplotlib</span>
+                                    <span class="skill-level">Intermediário</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="78%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Estatística</span>
+                                    <span class="skill-level">Avançado</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="82%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="certifications">
+                    <h3 class="cert-title">Certificações & Cursos</h3>
+                    <div class="cert-grid">
+                        <div class="cert-item">
+                            <div class="cert-icon">🏆</div>
+                            <div class="cert-content">
+                                <h4>Microsoft Power BI Data Analyst</h4>
+                                <p class="cert-org">Microsoft</p>
+                                <span class="cert-date">2023</span>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-icon">🏆</div>
+                            <div class="cert-content">
+                                <h4>Python para Data Science</h4>
+                                <p class="cert-org">IBM</p>
+                                <span class="cert-date">2022</span>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-icon">🏆</div>
+                            <div class="cert-content">
+                                <h4>Azure Data Factory</h4>
+                                <p class="cert-org">Microsoft</p>
+                                <span class="cert-date">2023</span>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-icon">🏆</div>
+                            <div class="cert-content">
+                                <h4>SQL Server Database</h4>
+                                <p class="cert-org">Microsoft</p>
+                                <span class="cert-date">2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contato" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">CONTATO</span>
+                    <h2 class="section-title">Vamos trabalhar <span class="text-gradient">juntos</span>?</h2>
+                    <p class="section-subtitle">Entre em contato para discutir seu próximo projeto de BI ou automação.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">💼</div>
+                            <h4>Trabalho</h4>
+                            <p>Disponível para projetos freelance e consultorias em Business Intelligence.</p>
+                        </div>
+
+                        <div class="contact-methods">
+                            <a href="mailto:davi98643@gmail.com" class="contact-method">
+                                <div class="method-icon">✉️</div>
+                                <div class="method-content">
+                                    <span class="method-label">Email</span>
+                                    <span class="method-value">davi98643@gmail.com</span>
+                                </div>
+                            </a>
+
+                            <a href="https://linkedin.com/in/davi-gabriel-goncalves" target="_blank" class="contact-method">
+                                <div class="method-icon">💼</div>
+                                <div class="method-content">
+                                    <span class="method-label">LinkedIn</span>
+                                    <span class="method-value">/davi-gabriel-goncalves</span>
+                                </div>
+                            </a>
+
+                            <a href="https://github.com/davg-bg/" target="_blank" class="contact-method">
+                                <div class="method-icon">🐙</div>
+                                <div class="method-content">
+                                    <span class="method-label">GitHub</span>
+                                    <span class="method-value">/davg-bg</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="nome" name="nome" placeholder="" required>
+                                <label for="nome">Nome</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="" required>
+                                <label for="email">Email</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" id="empresa" name="empresa" placeholder="">
+                                <label for="empresa">Empresa</label>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea id="mensagem" name="mensagem" rows="5" placeholder="" required></textarea>
+                                <label for="mensagem">Mensagem</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <span>ENVIAR MENSAGEM</span>
+                                <i class="btn-icon">→</i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Davi Gonçalves</h3>
+                    <p>Analista em Business Intelligence</p>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navegação</h4>
+                        <a href="#inicio">Início</a>
+                        <a href="#sobre">Sobre</a>
+                        <a href="#projetos">Projetos</a>
+                        <a href="#habilidades">Habilidades</a>
+                        <a href="#contato">Contato</a>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Projetos</h4>
+                        <a href="projetos-bi/index.html">Business Intelligence</a>
+                        <a href="projetos-python/index.html">Python & Automação</a>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Contato</h4>
+                        <a href="mailto:davi98643@gmail.com">davi98643@gmail.com</a>
+                        <a href="https://linkedin.com/in/davi-gabriel-goncalves" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/davg-bg/" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/davi-gabriel-goncalves" target="_blank" aria-label="LinkedIn">
+                        <span>in</span>
+                    </a>
+                    <a href="https://github.com/davg-bg/" target="_blank" aria-label="GitHub">
+                        <span>gh</span>
+                    </a>
+                    <a href="mailto:davi98643@gmail.com" aria-label="Email">
+                        <span>@</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Davi Gonçalves. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
