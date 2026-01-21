@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projetos de Business Intelligence - Dashboards em Power BI, análises de dados e soluções de BI desenvolvidas por Davi Gabriel Gonçalves">
+    <meta name="keywords" content="Power BI, Business Intelligence, Dashboards, Data Analysis, Davi Gabriel">
+    <meta name="author" content="Davi Gabriel Gonçalves">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Projetos Business Intelligence - Davi Gabriel">
+    <meta property="og:description" content="Dashboards em Power BI e soluções de Business Intelligence">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="../preview-image.jpg">
+
+    <title>Projetos Business Intelligence - Davi Gabriel Gonçalves</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../assets/gallery-styles.css">
+</head>
+<body>
+    <!-- Skip Navigation -->
+    <a href="#main-content" class="skip-link">Pular para conteúdo principal</a>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html">Davi Gabriel</a>
+            </div>
+            <div class="nav-breadcrumb">
+                <a href="../index.html">Portfólio</a>
+                <span class="breadcrumb-separator">→</span>
+                <span class="breadcrumb-current">Business Intelligence</span>
+            </div>
+            <div class="nav-actions">
+                <a href="../index.html" class="btn btn-outline btn-sm">
+                    <span>← Voltar</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-bg">
+                <div class="hero-pattern"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <span class="hero-category">BUSINESS INTELLIGENCE</span>
+                        <h1 class="hero-title">Dashboards & <span class="hero-highlight">Análises</span></h1>
+                        <p class="hero-subtitle">Transformando dados operacionais em insights estratégicos através de soluções de Business Intelligence desenvolvidas em Power BI.</p>
+
+                        <div class="hero-stats">
+                            <div class="hero-stat">
+                                <div class="stat-number" data-target="15">0</div>
+                                <div class="stat-label">Dashboards<br>Criados</div>
+                            </div>
+                            <div class="hero-stat">
+                                <div class="stat-number" data-target="25">0</div>
+                                <div class="stat-label">Relatórios<br>Desenvolvidos</div>
+                            </div>
+                            <div class="hero-stat">
+                                <div class="stat-number" data-target="8">0</div>
+                                <div class="stat-label">Sistemas<br>Integrados</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero-visual">
+                        <div class="dashboard-mockup">
+                            <div class="mockup-header">
+                                <div class="mockup-controls">
+                                    <div class="control"></div>
+                                    <div class="control"></div>
+                                    <div class="control"></div>
+                                </div>
+                                <div class="mockup-title">Dashboard Analytics</div>
+                            </div>
+                            <div class="mockup-content">
+                                <div class="chart-container">
+                                    <div class="chart-bars">
+                                        <div class="bar" style="height: 60%"></div>
+                                        <div class="bar" style="height: 80%"></div>
+                                        <div class="bar" style="height: 45%"></div>
+                                        <div class="bar" style="height: 90%"></div>
+                                        <div class="bar" style="height: 70%"></div>
+                                        <div class="bar" style="height: 55%"></div>
+                                    </div>
+                                </div>
+                                <div class="chart-metrics">
+                                    <div class="metric">
+                                        <div class="metric-value">94.2%</div>
+                                        <div class="metric-label">Performance</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="metric-value">1.2K</div>
+                                        <div class="metric-label">Usuários</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DASHBOARD SECTION - SaaS STYLE -->
+        <section class="dashboard-section">
+        <div class="container">
+      <!-- Header -->
+    <div class="dashboard-header">
+      <h2>Dashboard de Performance</h2>
+                  <p>Dados simulados para demonstração interativa</p>
+           </div>
+
+         <!-- Controls Bar -->
+       <div class="dashboard-controls">
+          <div class="dashboard-controls-left">
+                  <div class="period-filter">
+    <button class="period-btn active" data-period="7">
+      7 dias
+        </button>
+    <button class="period-btn" data-period="30">
+     30 dias
+                 </button>
+       <button class="period-btn" data-period="90">
+     90 dias
+    </button>
+         </div>
+ </div>
+         <div class="dashboard-search">
+            <input type="text" placeholder="Buscar dados...">
+  </div>
+          </div>
+
+    <!-- KPI Cards -->
+     <div class="kpi-grid">
+    <!-- KPI 1: Faturamento Total -->
+    <div class="kpi-card">
+       <div class="kpi-header">
+   <span class="kpi-title">Faturamento Total</span>
+          <span class="kpi-icon">💰</span>
+      </div>
+         <div class="kpi-value">R$ 125.4K</div>
+      <div class="kpi-change positive">
+     <span class="kpi-change-arrow">↑</span>
+ <span>12.5%</span>
+            </div>
+               <div class="kpi-comparison">vs. período anterior</div>
+             </div>
+
+    <!-- KPI 2: Crescimento Mensal -->
+  <div class="kpi-card">
+<div class="kpi-header">
+                 <span class="kpi-title">Crescimento Mensal</span>
+  <span class="kpi-icon">📈</span>
+   </div>
+          <div class="kpi-value">18.5%</div>
+         <div class="kpi-change positive">
+           <span class="kpi-change-arrow">↑</span>
+             <span>3.2%</span>
+            </div>
+    <div class="kpi-comparison">vs. mês anterior</div>
+      </div>
+
+            <!-- KPI 3: Clientes Ativos -->
+   <div class="kpi-card">
+        <div class="kpi-header">
+     <span class="kpi-title">Clientes Ativos</span>
+                <span class="kpi-icon">👥</span>
+ </div>
+              <div class="kpi-value">2,847</div>
+       <div class="kpi-change positive">
+  <span class="kpi-change-arrow">↑</span>
+             <span>8.3%</span>
+    </div>
+       <div class="kpi-comparison">vs. período anterior</div>
+      </div>
+
+         <!-- KPI 4: Ticket Médio -->
+            <div class="kpi-card">
+        <div class="kpi-header">
+           <span class="kpi-title">Ticket Médio</span>
+   <span class="kpi-icon">⭐</span>
+           </div>
+       <div class="kpi-value">R$ 441</div>
+     <div class="kpi-change negative">
+     <span class="kpi-change-arrow">↓</span>
+  <span>2.1%</span>
+           </div>
+       <div class="kpi-comparison">vs. período anterior</div>
+ </div>
+          </div>
+
+        <!-- Charts Container -->
+          <div class="charts-container">
+    <!-- Chart 1: Revenue Trend -->
+     <div class="chart-card">
+           <div class="chart-header">
+            <span class="chart-title">Evolução de Faturamento</span>
+  <div class="chart-legend">
+ <div class="chart-legend-item">
+    <div class="chart-legend-dot" style="background: var(--primary-gold);"></div>
+         <span>2024</span>
+                    </div>
+      <div class="chart-legend-item">
+         <div class="chart-legend-dot" style="background: rgba(255, 215, 0, 0.3);"></div>
+     <span>2023</span>
+  </div>
+          </div>
+  </div>
+       <div class="chart-body">
+         <canvas id="revenueChart"></canvas>
+             </div>
+              <div class="chart-footer">
+       <div class="chart-stat">
+         <div class="chart-stat-label">Média</div>
+     <div class="chart-stat-value">R$ 18.7K</div>
+     </div>
+<div class="chart-stat">
+       <div class="chart-stat-label">Pico</div>
+     <div class="chart-stat-value">R$ 25.3K</div>
+        </div>
+     <div class="chart-stat">
+    <div class="chart-stat-label">Mínimo</div>
+     <div class="chart-stat-value">R$ 12.1K</div>
+          </div>
+       </div>
+   </div>
+
+        <!-- Chart 2: Performance by Category -->
+       <div class="chart-card">
+                 <div class="chart-header">
+      <span class="chart-title">Performance por Categoria</span>
+         <div class="chart-legend">
+     <div class="chart-legend-item">
+             <div class="chart-legend-dot" style="background: var(--primary-gold);"></div>
+      <span>Vendas</span>
+            </div>
+  </div>
+     </div>
+       <div class="chart-body">
+  <canvas id="categoryChart"></canvas>
+         </div>
+       <div class="chart-footer">
+   <div class="chart-stat">
+<div class="chart-stat-label">Top Categoria</div>
+             <div class="chart-stat-value">Premium</div>
+          </div>
+           <div class="chart-stat">
+      <div class="chart-stat-label">Crescimento</div>
+          <div class="chart-stat-value">+24.3%</div>
+             </div>
+           <div class="chart-stat">
+           <div class="chart-stat-label">Total</div>
+           <div class="chart-stat-value">R$ 125.4K</div>
+        </div>
+      </div>
+   </div>
+      </div>
+
+      <!-- Data Table -->
+    <div class="data-table-section">
+          <div class="table-header">
+           <span class="table-title">Últimas Transações</span>
+     <div class="table-actions">
+               <button class="table-action-btn">📥 Exportar</button>
+               <button class="table-action-btn">⚙️ Filtrar</button>
+             </div>
+    </div>
+         <div class="table-wrapper">
+        <table class="data-table">
+    <thead>
+         <tr>
+         <th>ID Transação</th>
+              <th>Cliente</th>
+           <th>Categoria</th>
+     <th>Valor</th>
+ <th>Data</th>
+    <th>Status</th>
+          </tr>
+        </thead>
+   <tbody>
+          <tr>
+   <td>#TRX-2024-001</td>
+       <td>Empresa Alfa</td>
+ <td>Premium</td>
+        <td><span class="cell-value">R$ 5,200</span></td>
+         <td>24 de jan</td>
+   <td><span class="cell-status active">Ativo</span></td>
+          </tr>
+     <tr>
+           <td>#TRX-2024-002</td>
+       <td>Beta Solutions</td>
+      <td>Standard</td>
+         <td><span class="cell-value">R$ 3,150</span></td>
+<td>24 de jan</td>
+   <td><span class="cell-status active">Ativo</span></td>
+    </tr>
+       <tr>
+       <td>#TRX-2024-003</td>
+     <td>Gamma Corp</td>
+       <td>Basic</td>
+          <td><span class="cell-value">R$ 1,890</span></td>
+         <td>23 de jan</td>
+        <td><span class="cell-status active">Ativo</span></td>
+                   </tr>
+         <tr>
+          <td>#TRX-2024-004</td>
+        <td>Delta Inc</td>
+    <td>Premium</td>
+        <td><span class="cell-value">R$ 6,780</span></td>
+     <td>23 de jan</td>
+       <td><span class="cell-status pending">Pendente</span></td>
+         </tr>
+            <tr>
+             <td>#TRX-2024-005</td>
+           <td>Epsilon Ltd</td>
+        <td>Standard</td>
+         <td><span class="cell-value">R$ 2,940</span></td>
+     <td>22 de jan</td>
+            <td><span class="cell-status active">Ativo</span></td>
+       </tr>
+          <tr>
+                 <td>#TRX-2024-006</td>
+      <td>Zeta Systems</td>
+    <td>Basic</td>
+               <td><span class="cell-value">R$ 1,450</span></td>
+          <td>22 de jan</td>
+             <td><span class="cell-status inactive">Inativo</span></td>
+    </tr>
+        </tbody>
+    </table>
+         </div>
+   </div>
+        </div>
+      </section>
+      
+        <!-- Featured Projects Section -->
+        <section class="featured-projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">PROJETOS DESTACADOS</span>
+                    <h2 class="section-title">Soluções de <span class="text-gradient">Alto Impacto</span></h2>
+                    <p class="section-subtitle">Projetos que geraram resultados mensuráveis para o negócio.</p>
+                </div>
+
+                <div class="featured-grid">
+                    <!-- Projeto Dashboard Toners -->
+                    <div class="featured-project">
+                        <div class="project-visual">
+                            <div class="project-image">
+                                <div class="image-placeholder">
+                                    <div class="placeholder-icon">📊</div>
+                                    <div class="placeholder-chart">
+                                        <div class="chart-line"></div>
+                                        <div class="chart-dots">
+                                            <div class="dot"></div>
+                                            <div class="dot active"></div>
+                                            <div class="dot"></div>
+                                            <div class="dot"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div class="project-category">DASHBOARD OPERACIONAL</div>
+                                <h3>Monitoramento de Toners</h3>
+                            </div>
+
+                            <p class="project-description">Dashboard interativo para monitoramento preventivo de níveis de toner em impressoras, permitindo priorização de reposição e redução de 40% nos incidentes operacionais.</p>
+
+                            <div class="project-features">
+                                <div class="feature">
+                                    <span class="feature-icon">📈</span>
+                                    <span>Alertas Preventivos</span>
+                                </div>
+                                <div class="feature">
+                                    <span class="feature-icon">⚡</span>
+                                    <span>Dados em Tempo Real</span>
+                                </div>
+                                <div class="feature">
+                                    <span class="feature-icon">🎯</span>
+                                    <span>Priorização Automática</span>
+                                </div>
+                            </div>
+
+                            <div class="project-tech">
+                                <span class="tech-tag primary">Power BI</span>
+                                <span class="tech-tag">DAX</span>
+                                <span class="tech-tag">SQL Server</span>
+                                <span class="tech-tag">Power Query</span>
+                            </div>
+
+                            <div class="project-impact">
+                                <div class="impact-metric">
+                                    <span class="impact-value">40%</span>
+                                    <span class="impact-label">Redução de Incidentes</span>
+                                </div>
+                                <div class="impact-metric">
+                                    <span class="impact-value">25%</span>
+                                    <span class="impact-label">Economia de Custos</span>
+                                </div>
+                            </div>
+
+                            <div class="project-actions">
+                                <button class="btn btn-primary btn-sm" onclick="openProjectModal('toners')">
+                                    <span>VER DETALHES</span>
+                                    <i class="btn-icon">→</i>
+                                </button>
+                                <button class="btn btn-outline btn-sm" onclick="openProjectDemo('toners')">
+                                    <span>DEMO INTERATIVO</span>
+                                    <i class="btn-icon">▶</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto BI Máquinas -->
+                    <div class="featured-project">
+                        <div class="project-visual">
+                            <div class="project-image">
+                                <div class="image-placeholder">
+                                    <div class="placeholder-icon">🏭</div>
+                                    <div class="placeholder-chart">
+                                        <div class="gauge-chart">
+                                            <div class="gauge-arc"></div>
+                                            <div class="gauge-needle"></div>
+                                            <div class="gauge-center"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div class="project-category">ANÁLISE OPERACIONAL</div>
+                                <h3>BI - Controle de Máquinas</h3>
+                            </div>
+
+                            <p class="project-description">Sistema de Business Intelligence para análise de conformidade e falhas operacionais em empilhadeiras, proporcionando visibilidade completa sobre performance e manutenção.</p>
+
+                            <div class="project-features">
+                                <div class="feature">
+                                    <span class="feature-icon">🔍</span>
+                                    <span>Análise de Falhas</span>
+                                </div>
+                                <div class="feature">
+                                    <span class="feature-icon">📊</span>
+                                    <span>Controle de Conformidade</span>
+                                </div>
+                                <div class="feature">
+                                    <span class="feature-icon">⚙️</span>
+                                    <span>Manutenção Preditiva</span>
+                                </div>
+                            </div>
+
+                            <div class="project-tech">
+                                <span class="tech-tag primary">Power BI</span>
+                                <span class="tech-tag">SQL Server</span>
+                                <span class="tech-tag">Azure</span>
+                                <span class="tech-tag">Machine Learning</span>
+                            </div>
+
+                            <div class="project-impact">
+                                <div class="impact-metric">
+                                    <span class="impact-value">30%</span>
+                                    <span class="impact-label">Redução de Custos</span>
+                                </div>
+                                <div class="impact-metric">
+                                    <span class="impact-value">50%</span>
+                                    <span class="impact-label">Aumento de Eficiência</span>
+                                </div>
+                            </div>
+
+                            <div class="project-actions">
+                                <button class="btn btn-primary btn-sm" onclick="openProjectModal('maquinas')">
+                                    <span>VER DETALHES</span>
+                                    <i class="btn-icon">→</i>
+                                </button>
+                                <button class="btn btn-outline btn-sm" onclick="openProjectDemo('maquinas')">
+                                    <span>DEMO INTERATIVO</span>
+                                    <i class="btn-icon">▶</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto BI Estoque -->
+                    <div class="featured-project">
+                        <div class="project-visual">
+                            <div class="project-image">
+                                <div class="image-placeholder">
+                                    <div class="placeholder-icon">📦</div>
+                                    <div class="placeholder-chart">
+                                        <div class="chart-pie"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div class="project-category">ANÁLISE DE ESTOQUE</div>
+                                <h3>BI - Gestão de Estoque</h3>
+                            </div>
+
+                            <p class="project-description">Solução de análise de dados de estoque com alertas de baixa quantidade, previsão de demanda e otimização de reabastecimento.</p>
+
+                            <div class="project-features">
+                                <div class="feature">
+                                    <span class="feature-icon">📉</span>
+                                    <span>Previsão de Demanda</span>
+                                </div>
+                                <div class="feature">
+                                    <span class="feature-icon">🚚</span>
+                                    <span>Otimização de Reabastecimento</span>
+                                </div>
+                                <div class="feature">
+                                    <span class="feature-icon">🔔</span>
+                                    <span>Alertas de Baixa Quantidade</span>
+                                </div>
+                            </div>
+
+                            <div class="project-tech">
+                                <span class="tech-tag primary">Power BI</span>
+                                <span class="tech-tag">Azure</span>
+                                <span class="tech-tag">Machine Learning</span>
+                                <span class="tech-tag">Power Automate</span>
+                            </div>
+
+                            <div class="project-impact">
+                                <div class="impact-metric">
+                                    <span class="impact-value">20%</span>
+                                    <span class="impact-label">Redução de Custos</span>
+                                </div>
+                                <div class="impact-metric">
+                                    <span class="impact-value">15%</span>
+                                    <span class="impact-label">Aumento de Eficiência</span>
+                                </div>
+                            </div>
+
+                            <div class="project-actions">
+                                <button class="btn btn-primary btn-sm" onclick="openProjectModal('estoque')">
+                                    <span>VER DETALHES</span>
+                                    <i class="btn-icon">→</i>
+                                </button>
+                                <button class="btn btn-outline btn-sm" onclick="openProjectDemo('estoque')">
+                                    <span>DEMO INTERATIVO</span>
+                                    <i class="btn-icon">▶</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto Dashboard Financeiro Pessoal -->
+                    <div class="featured-project">
+                        <div class="project-visual">
+                            <div class="project-image">
+                                <div class="image-placeholder">
+                                    <div class="placeholder-icon">💼</div>
+                                    <div class="placeholder-chart">
+                                        <div class="chart-line"></div>
+                                        <div class="chart-dots">
+                                            <div class="dot"></div>
+                                            <div class="dot active"></div>
+                                            <div class="dot"></div>
+                                            <div class="dot"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div class="project-category">DASHBOARD PESSOAL</div>
+                                <h3>Financeiro Pessoal</h3>
+                            </div>
+
+                            <p class="project-description">Controle financeiro pessoal com categorias de despesas, gráficos de evolução patrimonial e previsão de gastos.</p>
+
+                            <div class="project-features">
+                                <div class="feature">
+                                    <span class="feature-icon">📊</span>
+                                    <span>Relatório de Despesas</span>
+                                </div>
+                                <div class="feature">
+                                    <span class="feature-icon">📈</span>
+                                    <span>Gráficos de Evolução</span>
+                                </div>
+                                <div class="feature">
+                                    <span class="feature-icon">💡</span>
+                                    <span>Dicas de Economia</span>
+                                </div>
+                            </div>
+
+                            <div class="project-tech">
+                                <span class="tech-tag primary">Power BI</span>
+                                <span class="tech-tag">Excel</span>
+                                <span class="tech-tag">SharePoint</span>
+                                <span class="tech-tag">Power Automate</span>
+                            </div>
+
+                            <div class="project-impact">
+                                <div class="impact-metric">
+                                    <span class="impact-value">10%</span>
+                                    <span class="impact-label">Redução de Despesas</span>
+                                </div>
+                                <div class="impact-metric">
+                                    <span class="impact-value">8%</span>
+                                    <span class="impact-label">Aumento de Poupança</span>
+                                </div>
+                            </div>
+
+                            <div class="project-actions">
+                                <button class="btn btn-primary btn-sm" onclick="openProjectModal('financeiro-pessoal')">
+                                    <span>VER DETALHES</span>
+                                    <i class="btn-icon">→</i>
+                                </button>
+                                <button class="btn btn-outline btn-sm" onclick="openProjectDemo('financeiro-pessoal')">
+                                    <span>DEMO INTERATIVO</span>
+                                    <i class="btn-icon">▶</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="../index.html">Davi Gabriel</a>
+                </div>
+                <div class="footer-links">
+                    <a href="../index.html">Início</a>
+                    <a href="../index.html#portfolio">Portfólio</a>
+                    <a href="../index.html#about">Sobre</a>
+                    <a href="../index.html#contact">Contato</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/davi-gabriel-goncalves/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/DaviGabriel" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Davi Gabriel Gonçalves. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle (including jQuery) -->
+    <script src="../assets/scripts.js"></script>
+    <script src="../assets/gallery-scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+    <script src="script.js"></script>
+    <script>
+   // ================================
+        // DASHBOARD INTERATIVO
+        // ================================
+
+        // Cores do Design System
+        const dashboardTheme = {
+            primary: '#FFD700',
+   primaryTransparent: 'rgba(255, 215, 0, 0.1)',
+            accent: '#FFA500',
+      success: '#10B981',
+         warning: '#F59E0B',
+            danger: '#EF4444',
+text: '#F0F6FC',
+            textSecondary: '#8B949E',
+            bg: '#161B22',
+            border: 'rgba(255, 255, 255, 0.1)'
+        };
+
+   // Dados simulados
+        const dashboardData = {
+  7: {
+         revenue: [8.2, 9.1, 7.8, 10.2, 11.5, 12.3, 14.1],
+   categories: [25, 18, 15, 22, 20],
+   dates: ['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sab', 'Dom']
+            },
+            30: {
+                revenue: [12.1, 13.5, 11.8, 14.2, 15.5, 16.3, 18.1, 17.4, 19.2, 20.1, 18.9, 21.3, 22.5, 23.1, 24.8, 25.3, 24.1, 23.5, 22.8, 21.9, 20.5, 19.8, 21.2, 22.4, 23.9, 24.5, 23.8, 22.1, 20.4, 19.1],
+                categories: [30, 25, 20, 15, 10],
+        dates: Array.from({length: 30}, (_, i) => `${i + 1}°`)
+          },
+            90: {
+    revenue: [18.5, 19.2, 20.1, 19.8, 21.2, 22.5, 23.1, 22.8, 24.3, 25.1, 26.2, 27.1, 26.8, 28.3, 29.5],
+           categories: [35, 28, 22, 10, 5],
+     dates: ['S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8', 'S9', 'S10', 'S11', 'S12', 'S13', 'S14', '...']
+     }
+};
+
+        // Gráfico de Revenue
+   let revenueChart = null;
+        let categoryChart = null;
+
+        function initRevenueChart(period = 7) {
+   const ctx = document.getElementById('revenueChart');
+        if (!ctx) return;
+
+            const data = dashboardData[period];
+
+            if (revenueChart) {
+  revenueChart.destroy();
+            }
+
+   revenueChart = new Chart(ctx, {
+        type: 'line',
+   data: {
+   labels: data.dates,
+               datasets: [
+    {
+      label: '2024',
+    data: data.revenue,
+     borderColor: dashboardTheme.primary,
+          backgroundColor: 'rgba(255, 215, 0, 0.05)',
+     borderWidth: 2.5,
+  fill: true,
+      tension: 0.4,
+    pointRadius: 4,
+          pointBackgroundColor: dashboardTheme.primary,
+       pointBorderWidth: 0,
+                  pointHoverRadius: 6,
+         segment: {
+       borderColor: dashboardTheme.primary,
+         }
+},
+      {
+      label: '2023',
+       data: data.revenue.map(v => v * 0.85),
+  borderColor: dashboardTheme.primaryTransparent.replace('0.1', '0.3'),
+        borderWidth: 2,
+   fill: false,
+   tension: 0.4,
+        pointRadius: 3,
+        pointBackgroundColor: dashboardTheme.primaryTransparent.replace('0.1', '0.3'),
+      borderDash: [5, 5],
+    pointBorderWidth: 0,
+          }
+       ]
+      },
+           options: {
+      responsive: true,
+  maintainAspectRatio: false,
+  interaction: {
+    mode: 'index',
+   intersect: false,
+     },
+       plugins: {
+      legend: {
+       display: false,
+           },
+           tooltip: {
+      backgroundColor: 'rgba(0, 0, 0, 0.8)',
+      padding: 12,
+        titleColor: dashboardTheme.primary,
+      bodyColor: dashboardTheme.text,
+      borderColor: dashboardTheme.primary,
+              borderWidth: 1,
+      titleFont: {
+        weight: '600',
+                size: 12,
+             family: "'Inter', sans-serif"
+        },
+     bodyFont: {
+      size: 11,
+        family: "'Inter', sans-serif"
+      },
+     callbacks: {
+   label: function(context) {
+             return context.dataset.label + ': R$ ' + context.parsed.y.toFixed(1) + 'K';
+           }
+   }
+             }
+          },
+scales: {
+            y: {
+      beginAtZero: false,
+                max: Math.max(...data.revenue) * 1.1,
+        ticks: {
+ color: dashboardTheme.textSecondary,
+       font: {
+  size: 11,
+     weight: '500'
+     },
+    callback: function(value) {
+         return 'R$ ' + value.toFixed(0) + 'K';
+        }
+        },
+        grid: {
+   color: 'rgba(255, 215, 0, 0.03)',
+        drawBorder: false,
+    }
+       },
+    x: {
+      ticks: {
+       color: dashboardTheme.textSecondary,
+     font: {
+     size: 10,
+      weight: '500'
+      }
+               },
+      grid: {
+  display: false,
+      drawBorder: false,
+                }
+    }
+              }
+   }
+          });
+ }
+
+        function initCategoryChart(period = 7) {
+         const ctx = document.getElementById('categoryChart');
+    if (!ctx) return;
+
+   const data = dashboardData[period];
+            const categories = ['Premium', 'Standard', 'Basic', 'Plus', 'Enterprise'];
+
+     if (categoryChart) {
+      categoryChart.destroy();
+   }
+
+        categoryChart = new Chart(ctx, {
+         type: 'bar',
+              data: {
+ labels: categories.slice(0, data.categories.length),
+               datasets: [
+    {
+       label: 'Vendas',
+            data: data.categories,
+          backgroundColor: [
+        dashboardTheme.primary,
+       'rgba(255, 215, 0, 0.7)',
+              'rgba(255, 215, 0, 0.5)',
+             'rgba(255, 215, 0, 0.3)',
+            'rgba(255, 215, 0, 0.1)'
+          ],
+        borderColor: dashboardTheme.primary,
+      borderWidth: 0,
+   borderRadius: 6,
+         }
+   ]
+     },
+   options: {
+  indexAxis: undefined,
+   responsive: true,
+   maintainAspectRatio: false,
+           plugins: {
+       legend: {
+             display: false,
+       },
+    tooltip: {
+    backgroundColor: 'rgba(0, 0, 0, 0.8)',
+padding: 12,
+         titleColor: dashboardTheme.primary,
+        bodyColor: dashboardTheme.text,
+        borderColor: dashboardTheme.primary,
+        borderWidth: 1,
+         titleFont: {
+  weight: '600',
+            size: 12,
+      family: "'Inter', sans-serif"
+          },
+      bodyFont: {
+    size: 11,
+         family: "'Inter', sans-serif"
+                },
+     callbacks: {
+                  label: function(context) {
+ return 'Vendas: ' + context.parsed.y + '%';
+            }
+        }
+           }
+   },
+    scales: {
+   y: {
+        beginAtZero: true,
+ max: 40,
+       ticks: {
+      color: dashboardTheme.textSecondary,
+         font: {
+           size: 11,
+        weight: '500'
+      },
+  callback: function(value) {
+   return value + '%';
+               }
+           },
+            grid: {
+      color: 'rgba(255, 215, 0, 0.03)',
+           drawBorder: false,
+      }
+       },
+            x: {
+              ticks: {
+       color: dashboardTheme.textSecondary,
+        font: {
+    size: 10,
+     weight: '500'
+      }
+        },
+   grid: {
+    display: false,
+           drawBorder: false,
+      }
+}
+        }
+        }
+     });
+}
+
+    // Period Filter
+        document.querySelectorAll('.period-btn').forEach(btn => {
+          btn.addEventListener('click', function() {
+        document.querySelectorAll('.period-btn').forEach(b => b.classList.remove('active'));
+         this.classList.add('active');
+    
+            const period = parseInt(this.dataset.period);
+         initRevenueChart(period);
+   initCategoryChart(period);
+          });
+        });
+
+        // Search functionality
+   document.querySelector('.dashboard-search input')?.addEventListener('input', function(e) {
+            const query = e.target.value.toLowerCase();
+    const rows = document.querySelectorAll('.data-table tbody tr');
+       
+    rows.forEach(row => {
+         const text = row.textContent.toLowerCase();
+         row.style.display = text.includes(query) ? '' : 'none';
+});
+        });
+
+   // Table sorting
+        document.querySelectorAll('.data-table th').forEach(th => {
+            th.addEventListener('click', function() {
+        const table = this.closest('.data-table');
+    const tbody = table.querySelector('tbody');
+                const rows = Array.from(tbody.querySelectorAll('tr'));
+     const cellIndex = this.cellIndex;
+        
+         rows.sort((a, b) => {
+             const aVal = a.cells[cellIndex].textContent.trim();
+            const bVal = b.cells[cellIndex].textContent.trim();
+         return aVal.localeCompare(bVal);
+ });
+       
+      rows.forEach(row => tbody.appendChild(row));
+      });
+      });
+
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', () => {
+          Chart.defaults.color = dashboardTheme.textSecondary;
+      Chart.defaults.font.family = "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
+        
+ initRevenueChart(7);
+            initCategoryChart(7);
+        });
+    </script>
+</body>
+</html>
